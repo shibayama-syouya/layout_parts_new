@@ -41,10 +41,10 @@
   padding: 10px;
   background-color: #FFF;
 }
-.q6--position .q6__box {
+.is__relative {
   position: relative;
 }
-.q6__box.is-stable .q6__box__inner {
+.fixed {
   position: absolute;
   top: 0;
   right: 0;
@@ -52,11 +52,10 @@
   left: 0;
   margin: auto;
 }
-.q6__box.is-flexible .q6__box__inner {
+.variable {
   position: absolute;
   top: 50%;
   left: 50%;
-  text-align: center;
   transform: translate(-50%, -50%);
 }
 
