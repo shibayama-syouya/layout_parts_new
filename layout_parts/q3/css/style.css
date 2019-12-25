@@ -27,7 +27,7 @@
   text-align: center;
 }
 
-.content > tbody > tr:nth-child(odd){
+.content > tbody > tr:nth-child(even){
   background-color: #ecf1f2;
 }
 
